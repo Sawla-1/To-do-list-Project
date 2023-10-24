@@ -23,6 +23,9 @@
 }
 .todo-app h2{
     display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    color:#05ca0f;
 }
 .todo-app h2 img{
     width: 30px;
@@ -46,13 +49,15 @@ input{
     font-weight: 14px;
 }
 button{
+    
     border: none;
-    padding: 16px 50px;
+    padding: 10px 40px;
     border-radius: 50px;
     background-color: #07ca1c;
     color: black;
     font-size: 14px;
     cursor: pointer;
+    white-space: nowrap;
 }
 ul li{
     list-style: none;
