@@ -15,7 +15,7 @@
 }
 .todo-app{
     width: 100%;
-    max-width: 540px;
+    /* max-width: 540px; */
     background: rgb(255 255 255);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
@@ -49,8 +49,6 @@ input{
     font-weight: 14px;
 }
 button{
-    position: relative;
-    right: 0;
     border: none;
     padding: 10px 40px;
     border-radius: 50px;
@@ -58,7 +56,6 @@ button{
     color: black;
     font-size: 14px;
     cursor: pointer;
-    white-space: nowrap;
 }
 ul li{
     list-style: none;
