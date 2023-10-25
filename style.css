@@ -42,13 +42,15 @@
     align-items: center;
 }
 input{
-    flex: 1;
+    /* flex: 1; */
     border: none;
     outline: none;
     background: transparent;
     padding: 10px;
     font-weight: 14px;
 }
+::placeholder{color: indianred;}
+
 button{
     border: none;
     padding: 10px 40px;
